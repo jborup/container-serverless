@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 3.1.409
     - name: Restore dependencies
-      run: dotnet restore
+      run: cd helloworld-csharp && dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: cd helloworld-csharp && dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: cd helloworld-csharp && dotnet test --no-build --verbosity normal
