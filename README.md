@@ -1,5 +1,6 @@
 # Container Serverless
 ![dotnet test](https://github.com/jborup/container-serverless/actions/workflows/dotnet.yml/badge.svg)
+[![Container build](https://quay.io/repository/jborup/helloworld-csharp/status "Docker Repository on Quay")](https://quay.io/repository/jborup/helloworld-csharp)
 
 Serverless is great to avoid th eneed of thinking about the underlying infrastructure.
 
