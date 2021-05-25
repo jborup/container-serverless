@@ -2,7 +2,7 @@
 ![dotnet test](https://github.com/jborup/container-serverless/actions/workflows/dotnet.yml/badge.svg)
 [![Container build](https://quay.io/repository/jborup/helloworld-csharp/status "Docker Repository on Quay")](https://quay.io/repository/jborup/helloworld-csharp)
 
-Serverless is great to avoid th eneed of thinking about the underlying infrastructure.
+Serverless is great to avoid the need of thinking about the underlying infrastructure.
 
 Cloud specific serverless such as [AWS Lambda](https://aws.amazon.com/lambda/), [GCP App Engine](https://cloud.google.com/appengine), [Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/) and [IBM Functions](https://cloud.ibm.com/functions/) are super great. All of them are highly optimized and works perfect in the respective cloud.
 
